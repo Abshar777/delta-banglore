@@ -5,7 +5,7 @@ const WhatsappButton = () => {
   return (
     <>
       <a
-        href="https://wa.me/+971507528009?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20this.%20Could%20you%20please%20provide%20details?"
+        href="https://wa.me/+918951639214?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20this.%20Could%20you%20please%20provide%20details?"
         className="align-items-center"
         style={{
           display: "flex",
@@ -54,8 +54,11 @@ const WhatsappButton = () => {
           display: flex;
           justify-content: center;
           align-items: center;
-          font: 400 var(--font-size) Helvetica Neue, sans-serif;
-          box-shadow: 0 0 2.17382px rgba(0, 0, 0, 0.049),
+          font:
+            400 var(--font-size) Helvetica Neue,
+            sans-serif;
+          box-shadow:
+            0 0 2.17382px rgba(0, 0, 0, 0.049),
             0 1.75px 6.01034px rgba(0, 0, 0, 0.07),
             0 3.63px 14.4706px rgba(0, 0, 0, 0.091),
             0 22px 48px rgba(0, 0, 0, 0.14);
