@@ -5,24 +5,26 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "Contact | Elegent Trading",
-  description: "Got questions about the markets or our programs? Reach out to us and let's elevate your trading journey together!",
+  title: "Contact | Delta International Trading",
+  description:
+    "Got questions about the markets or our programs? Reach out to us and let's elevate your trading journey together!",
   keywords: [
     "trading academy",
     "trading academy bangalore",
     "trading academy bangalore",
     "trading academy bangalore",
     "trading academy bangalore",
-    "elegent trading",
-    "elegent trading academy",
-    "elegent trading academy bangalore",
-    "elegent trading academy bangalore",
-    "elegent trading academy bangalore",
-    "elegent trading academy bangalore",
+    "Delta International trading",
+    "Delta International trading academy",
+    "Delta International trading academy bangalore",
+    "Delta International trading academy bangalore",
+    "Delta International trading academy bangalore",
+    "Delta International trading academy bangalore",
   ],
   openGraph: {
-    title: "Contact | Elegent Trading",
-    description: "Got questions about the markets or our programs? Reach out to us and let's elevate your trading journey together!",
+    title: "Contact | Delta International Trading",
+    description:
+      "Got questions about the markets or our programs? Reach out to us and let's elevate your trading journey together!",
     images: ["/images/logo.png"],
   },
 };

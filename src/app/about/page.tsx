@@ -10,26 +10,27 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "About Us | Elegent Trading",
-  description: "At Elegant Trading Academy, we are a team of passionate financial educators and market professionals committed to helping individuals and professionals excel in the world of trading. From mastering charts to launching your own brokerage, our academy is your one-stop destination to learn, practice, and grow.",
+  title: "About Us | Delta International Trading",
+  description:
+    "At Elegant Trading Academy, we are a team of passionate financial educators and market professionals committed to helping individuals and professionals excel in the world of trading. From mastering charts to launching your own brokerage, our academy is your one-stop destination to learn, practice, and grow.",
   keywords: [
     "trading academy",
     "trading academy bangalore",
     "trading academy bangalore",
     "trading academy bangalore",
     "trading academy bangalore",
-    "elegent trading",
-    "elegent trading academy",
-    "elegent trading academy bangalore",
-    "elegent trading academy bangalore",
-    "elegent trading academy bangalore",
-    "elegent trading academy bangalore",
+    "Delta International trading",
+    "Delta International trading academy",
+    "Delta International trading academy bangalore",
+    "Delta International trading academy bangalore",
+    "Delta International trading academy bangalore",
+    "Delta International trading academy bangalore",
   ],
   openGraph: {
-    title: "About Us | Elegent Trading",
-    description: "At Elegant Trading Academy, we are a team of passionate financial educators and market professionals committed to helping individuals and professionals excel in the world of trading. From mastering charts to launching your own brokerage, our academy is your one-stop destination to learn, practice, and grow.",
+    title: "About Us | Delta International Trading",
+    description:
+      "At Elegant Trading Academy, we are a team of passionate financial educators and market professionals committed to helping individuals and professionals excel in the world of trading. From mastering charts to launching your own brokerage, our academy is your one-stop destination to learn, practice, and grow.",
     images: ["/images/logo.png"],
-    
   },
 };
 

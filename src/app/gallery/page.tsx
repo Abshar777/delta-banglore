@@ -5,14 +5,14 @@ import React from "react";
 
 
 export const metadata: Metadata = {
-  title: "Gallery | Elegent Trading",
+  title: "Gallery | Delta International Trading",
   description: "We are a team of experienced traders and analysts who are dedicated to helping you achieve your trading goals.",
   keywords: [
     "trading academy",
     "trading academy bangalore",
   ],
   openGraph: {
-    title: "Gallery | Elegent Trading",
+    title: "Gallery | Delta International Trading",
     description: "We are a team of experienced traders and analysts who are dedicated to helping you achieve your trading goals.",
     images: ["/images/logo.png"],
   },

@@ -9551,10 +9551,13 @@ body.is-mobile .tt-avlist-item:focus {
 /* Footer logo */
 .tt-footer-logo a { 
 	display: block;
+	scale: 1.5;
 }
 .tt-footer-logo img { 
 	max-height: 110px; /* You may need to change the img height to match your logo type! */
 }
+
+
 
 /* Footer social buttons */
 .tt-footer-widget-list .tt-social-buttons > ul > li a {
@@ -9566,14 +9569,14 @@ body.is-mobile .tt-avlist-item:focus {
 		margin-left: -15px;
 	}
 	.tt-footer-logo img{
-		margin-left: 2rem;
+		/* margin-left: 2rem; */
 	}
 
 }
 
 @media (max-width:576px){
 	.tt-footer-logo img{
-		margin-left: 6rem;
+		/* margin-left: 6rem; */
 	}
 }
 

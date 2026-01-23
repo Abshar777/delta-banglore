@@ -9,8 +9,8 @@ const footerData = [
     heading: "Links",
     items: [
       { label: "Support", href: "https://wa.me/918951639214 " },
-      { label: "Terms of Use", href: "/Terms_and_Conditions_ELEGENT_TRADING_ACADEMY.pdf" },
-      { label: "Privacy Policy", href: "/Terms_and_Conditions_ELEGENT_TRADING_ACADEMY.pdf" },
+      { label: "Terms of Use", href: "https://www.deltainstitutions.com/termsandcondition" },
+      { label: "Privacy Policy", href: "https://www.deltainstitutions.com/privacy-policy" },
     ],
   },
   {
@@ -137,17 +137,17 @@ const Footer = () => {
             <div className="tt-footer-widget">
               <ul className="tt-footer-widget-list">
                 <li>
-                  <div style={{pointerEvents:'none'}} className="tt-footer-logo md:ml-10">
+                  <div style={{pointerEvents:'none'}} className="tt-footer-logo">
                     <a href="/">
                       <img
-                        src="/logo-min.png"
+                        src="/logos-pdf.png"
                         // style={{ scale: 2.5 ,filter:"grayscale(100%) brightness(10)"}}
                         className="tt-logo-light"
                         loading="lazy"
                         alt="Logo"
                       />
                       <img
-                        src="/logo-min.png"
+                        src="/logos-pdf.png"
                         className="tt-logo-dark"
                         loading="lazy"
                         style={{ filter:"brightness(.1)"}}

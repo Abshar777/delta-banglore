@@ -1,8 +1,16 @@
 "use client";
 
 import { useState } from "react";
-import { FaFacebook, FaInstagram, FaLinkedin, FaSnapchat, FaTiktok, FaWhatsapp, FaYoutube } from 'react-icons/fa';
-import { FaX } from 'react-icons/fa6';
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaSnapchat,
+  FaTiktok,
+  FaWhatsapp,
+  FaYoutube,
+} from "react-icons/fa";
+import { FaX } from "react-icons/fa6";
 
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
@@ -116,10 +124,10 @@ const ContactForm = () => {
                         <i className="fas fa-envelope"></i>
                       </span>
                       <a
-                        href="mailto:info@eleganttradingacademy.com"
+                        href="mailto:info@deltainstitutions.com"
                         className="tt-link"
                       >
-                        info@eleganttradingacademy.com
+                        info@deltainstitutions.com
                       </a>
                     </li>
                     <li>
@@ -150,7 +158,7 @@ const ContactForm = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                      <FaWhatsapp/>
+                        <FaWhatsapp />
                       </a>
                     </li>
                     <li>
@@ -160,7 +168,7 @@ const ContactForm = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                       <FaFacebook/>
+                        <FaFacebook />
                       </a>
                     </li>
                     <li>
@@ -170,7 +178,7 @@ const ContactForm = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <FaInstagram/>
+                        <FaInstagram />
                       </a>
                     </li>
                     <li>
@@ -180,7 +188,7 @@ const ContactForm = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <FaLinkedin/>
+                        <FaLinkedin />
                       </a>
                     </li>
 
@@ -235,7 +243,7 @@ const ContactForm = () => {
                     id="sender-name"
                     type="text"
                     name="name"
-                    placeholder="John Smith"
+                    placeholder="Your Name"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     required
@@ -251,7 +259,7 @@ const ContactForm = () => {
                     id="sender-email"
                     type="email"
                     name="email"
-                    placeholder="john@smith.com"
+                    placeholder="Your Email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
