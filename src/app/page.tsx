@@ -15,6 +15,7 @@ import ContactSection from "@/components/page-sections/contactSection";
 import Courses from "@/components/page-sections/courses";
 import Caption from "@/components/page-sections/caption";
 import ContactForm from "@/components/page-sections/contactForm";
+import Mentors from "@/components/page-sections/mentors";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -38,7 +39,7 @@ export default function Home() {
         <Features />
         <Benifits />
         <Courses />
-
+        <Mentors />
         <AwardsSection />
         <AwwardListing />
         <ContactForm />

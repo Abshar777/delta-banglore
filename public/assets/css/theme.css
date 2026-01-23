@@ -4739,6 +4739,16 @@ a.tt-logo-wall-item:hover img {
 }
 
 
+.tt-logo-wall {
+	justify-content: center;
+	padding:0  4rem;
+}
+
+@media (max-width: 1200px) {
+	.tt-logo-wall {
+		padding:0  0rem;
+	}
+}
 /* Logo wall columns 
 ===================== */
 .tt-logo-wall.tt-lw-col-4 > li {
@@ -4748,7 +4758,13 @@ a.tt-logo-wall-item:hover img {
 	width: 33.33333%;
 }
 .tt-logo-wall.tt-lw-col-2 > li {
+	width: 40%;
+}
+
+@media (max-width: 600px) {
+	.tt-logo-wall.tt-lw-col-2 > li {
 	width: 50%;
+}
 }
 
 
