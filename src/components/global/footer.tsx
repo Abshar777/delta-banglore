@@ -150,7 +150,7 @@ const Footer = () => {
                         src="/logos-pdf.png"
                         className="tt-logo-dark"
                         loading="lazy"
-                        style={{ filter:"brightness(.1)"}}
+                        // style={{ filter:"brightness(.1)"}}
                         alt="Logo"
                       />
                     </a>
