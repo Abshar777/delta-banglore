@@ -10,7 +10,7 @@ import {
   FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa";
-import { FaX } from "react-icons/fa6";
+import { FaX, FaXTwitter } from "react-icons/fa6";
 
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
@@ -70,6 +70,38 @@ const ContactForm = () => {
     setIsValidPhone(/^\+91-\d{5}-\d{5}$/.test(formatted));
   };
 
+
+  const social=[
+      {
+        icon: <FaLinkedin/>,
+        href: 'https://www.linkedin.com/company/delta-international-academy/mycompany/?viewAsMember=true',
+      },
+      {
+        icon: <FaFacebook/>,
+        href: 'https://www.facebook.com/profile.php?id=100092268086708',
+      },
+      {
+        icon: <FaInstagram/>,
+        href: 'https://instagram.com/delta_international_institute?igshid=YmMyMTA2M2Y=',
+      },
+      {
+        icon: <FaXTwitter/>,
+        href: 'https://x.com/DeltaI17228',
+      },
+      // {
+      //   icon: <FaSnapchat/>,
+      //   href: ' https://www.snapchat.com/add/deltamens1?share_id=lbwxHFqwycE&locale=en-GB',
+      // },
+      {
+        icon: <FaYoutube/>,
+        href: 'https://www.youtube.com/channel/UCrxRRxzEy84uX-MZqxFSy2g',
+      },
+      // {
+      //   icon: <FaTiktok/>,
+      //   href: 'https://www.tiktok.com/@deltainstitute?_r=1&_t=ZS-910aLwB4FHT',
+      // },
+  
+    ]
   return (
     <div className="tt-section padding-top-40 padding-bottom-xlg-120">
       <div className="tt-section-inner tt-wrap">
@@ -151,47 +183,21 @@ const ContactForm = () => {
                 <div className="tt-social-buttons margin-bottom-50 tt-anim-fadeinup">
                   <h6>Social</h6>
                   <ul>
-                    <li>
-                      <a
-                        href="https://wa.me/918951639214 "
-                        className="tt-magnetic-item"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <FaWhatsapp />
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.facebook.com/profile.php?id=61577236858579"
-                        className="tt-magnetic-item"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <FaFacebook />
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.instagram.com/elegant.academy_?igsh=aDJ2NGRwOGE3ZXJm"
-                        className="tt-magnetic-item"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <FaInstagram />
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/company/elegant-trading-academy/posts/?feedView=all" // example: https://wa.me/1234567890
-                        className="tt-magnetic-item"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <FaLinkedin />
-                      </a>
-                    </li>
-
+                   {
+                    social.map((item, index) => (
+                      <li key={index}>
+                        <a
+                          href={item.href}
+                          className="tt-magnetic-item"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {item.icon}
+                        </a>
+                      </li>
+                    ))
+                   }
+                 
                     {/* <li>
                         <a
                           href="https://x.com/Themetorium"
