@@ -140,7 +140,7 @@ const ContactForm = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                      Gold souq,Metro station- One Deira Building ,410. Dubai-United Arab Emirates
+                  Delta Trading Academy, 1st Floor, Work Hub by Novel Office, DODDANAKUNDI INDUSTRIAL AREA, Graphite India Main Rd, Whitefield, KEB Colony, Industrial Area, Mahadevapura, Bengaluru, Karnataka 560048
                       </a>
                     </li>
                     <li>
