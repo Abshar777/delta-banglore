@@ -5,6 +5,17 @@ import m1 from "@/../public/mentors/1.png"
 import m2 from "@/../public/mentors/2.png"
 
 const Mentors = () => {
+
+  const mentors=[
+    {
+      name :"Kiran kumar",
+      image:m1
+    },
+    {
+      name :"Adarsh M krishnan",
+      image:m2
+    }
+  ]
   return (
     <>
       {/* Heading Section */}
@@ -37,6 +48,7 @@ const Mentors = () => {
                   href="https://themetorium.net/"
                   className="tt-logo-wall-item cursor-alter"
                   target="_blank"
+                  style={{position:"relative"}}
                   rel="noopener noreferrer"
                 >
                   <div className="tt-lv-item-inner">
@@ -56,6 +68,19 @@ const Mentors = () => {
                       height={500}
                       alt="Client Logo"
                     />
+                  </div>
+                  <div style={{
+                    position:"absolute",
+                    top:0,
+                    left:0,
+                    width:"100%",
+                    height:"100%",
+                    display:"flex",
+                    alignItems:"end",
+                    justifyContent:"center",
+                    zIndex:1
+                  }} className="absolute">
+                    <h3 style={{color:"white",zIndex:999,}}>Abshar</h3>
                   </div>
                 </a>
               </li>

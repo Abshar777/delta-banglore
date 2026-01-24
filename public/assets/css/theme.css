@@ -4758,7 +4758,7 @@ a.tt-logo-wall-item:hover img {
 	width: 33.33333%;
 }
 .tt-logo-wall.tt-lw-col-2 > li {
-	width: 40%;
+	width: 30%;
 }
 
 @media (max-width: 600px) {
