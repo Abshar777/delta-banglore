@@ -140,7 +140,7 @@ const ContactForm = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Bangalore, Karnataka, India | Online
+                      Gold souq,Metro station- One Deira Building ,410. Dubai-United Arab Emirates
                       </a>
                     </li>
                     <li>

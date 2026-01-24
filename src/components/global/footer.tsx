@@ -30,7 +30,7 @@ const footerData = [
           <>
             {/* +91 7736859513 */}
             {/* <br />  */}
-            Bangalore, Karnataka, India | Online
+            Gold souq,Metro station- One Deira Building ,410. Dubai-United Arab Emirates
           </>
         ),
         href: "",
