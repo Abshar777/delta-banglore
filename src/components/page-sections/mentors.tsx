@@ -42,7 +42,7 @@ const Mentors = () => {
       <div className="tt-section">
         <div className="tt-section-inner tt-wrap">
           <ul className="tt-logo-wall tt-lw-col-2 tt-anim-fadeinup">
-            {[m1,m2].map((_, index) => (
+            {mentors.map((_, index) => (
               <li key={index}>
                 <a
                   href="https://themetorium.net/"
@@ -53,7 +53,7 @@ const Mentors = () => {
                 >
                   <div className="tt-lv-item-inner">
                     <Image
-                      src={_}
+                      src={_.image}
                       className="tt-lv-img-light"
                       loading="lazy"
                       width={500}
@@ -61,7 +61,7 @@ const Mentors = () => {
                       alt="Client Logo"
                     />
                     <Image
-                      src={_}
+                      src={_.image}
                       className="tt-lv-img-dark"
                       loading="lazy"
                       width={500}
@@ -80,7 +80,7 @@ const Mentors = () => {
                     justifyContent:"center",
                     zIndex:1
                   }} className="absolute">
-                    <h3 style={{color:"white",zIndex:999,}}>Abshar</h3>
+                    <h3 style={{color:"white",zIndex:999,}}>{_.name}</h3>
                   </div>
                 </a>
               </li>
