@@ -12,13 +12,13 @@ const Caption = () => {
     >
       <div className="tt-scrt-inner">
         <div className="tt-scrt-content">
-          Free Entry for the First 49 Joinees
+          Reserve your seat now
           <span className="tt-scrt-separator">
-        <BiSolidOffer  />
+            <BiSolidOffer />
           </span>
-         Free Entry for the First 49 Joinees
+          Reserve your seat now
           <span className="tt-scrt-separator">
-          <BiSolidOffer />
+            <BiSolidOffer />
           </span>
         </div>
       </div>

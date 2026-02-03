@@ -17,7 +17,7 @@ const TopBar = () => {
     gap:".5rem"
    }} className="">
    <BiSolidOffer  />
-    The Course Is Free for the First 49 Joinees
+   Enrollment is now open.
      <BiSolidOffer  />
    </div>
   )

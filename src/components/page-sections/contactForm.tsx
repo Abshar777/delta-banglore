@@ -70,38 +70,36 @@ const ContactForm = () => {
     setIsValidPhone(/^\+91-\d{5}-\d{5}$/.test(formatted));
   };
 
-
-  const social=[
-      {
-        icon: <FaLinkedin/>,
-        href: 'https://www.linkedin.com/company/delta-international-academy/mycompany/?viewAsMember=true',
-      },
-      {
-        icon: <FaFacebook/>,
-        href: 'https://www.facebook.com/profile.php?id=100092268086708',
-      },
-      {
-        icon: <FaInstagram/>,
-        href: 'https://instagram.com/delta_international_institute?igshid=YmMyMTA2M2Y=',
-      },
-      {
-        icon: <FaXTwitter/>,
-        href: 'https://x.com/DeltaI17228',
-      },
-      // {
-      //   icon: <FaSnapchat/>,
-      //   href: ' https://www.snapchat.com/add/deltamens1?share_id=lbwxHFqwycE&locale=en-GB',
-      // },
-      {
-        icon: <FaYoutube/>,
-        href: 'https://www.youtube.com/channel/UCrxRRxzEy84uX-MZqxFSy2g',
-      },
-      // {
-      //   icon: <FaTiktok/>,
-      //   href: 'https://www.tiktok.com/@deltainstitute?_r=1&_t=ZS-910aLwB4FHT',
-      // },
-  
-    ]
+  const social = [
+    {
+      icon: <FaLinkedin />,
+      href: "https://www.linkedin.com/company/delta-international-academy/mycompany/?viewAsMember=true",
+    },
+    {
+      icon: <FaFacebook />,
+      href: "https://www.facebook.com/profile.php?id=100092268086708",
+    },
+    {
+      icon: <FaInstagram />,
+      href: "https://instagram.com/delta_international_institute?igshid=YmMyMTA2M2Y=",
+    },
+    {
+      icon: <FaXTwitter />,
+      href: "https://x.com/DeltaI17228",
+    },
+    // {
+    //   icon: <FaSnapchat/>,
+    //   href: ' https://www.snapchat.com/add/deltamens1?share_id=lbwxHFqwycE&locale=en-GB',
+    // },
+    {
+      icon: <FaYoutube />,
+      href: "https://www.youtube.com/channel/UCrxRRxzEy84uX-MZqxFSy2g",
+    },
+    // {
+    //   icon: <FaTiktok/>,
+    //   href: 'https://www.tiktok.com/@deltainstitute?_r=1&_t=ZS-910aLwB4FHT',
+    // },
+  ];
   return (
     <div className="tt-section padding-top-40 padding-bottom-xlg-120">
       <div className="tt-section-inner tt-wrap">
@@ -140,7 +138,10 @@ const ContactForm = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                  Delta Trading Academy, 1st Floor, Work Hub by Novel Office, DODDANAKUNDI INDUSTRIAL AREA, Graphite India Main Rd, Whitefield, KEB Colony, Industrial Area, Mahadevapura, Bengaluru, Karnataka 560048
+                        Delta Trading Academy, 1st Floor, Work Hub by Novel
+                        Office, DODDANAKUNDI INDUSTRIAL AREA, Graphite India
+                        Main Rd, Whitefield, KEB Colony, Industrial Area,
+                        Mahadevapura, Bengaluru, Karnataka 560048
                       </a>
                     </li>
                     <li>
@@ -183,8 +184,7 @@ const ContactForm = () => {
                 <div className="tt-social-buttons margin-bottom-50 tt-anim-fadeinup">
                   <h6>Social</h6>
                   <ul>
-                   {
-                    social.map((item, index) => (
+                    {social.map((item, index) => (
                       <li key={index}>
                         <a
                           href={item.href}
@@ -195,9 +195,8 @@ const ContactForm = () => {
                           {item.icon}
                         </a>
                       </li>
-                    ))
-                   }
-                 
+                    ))}
+
                     {/* <li>
                         <a
                           href="https://x.com/Themetorium"
