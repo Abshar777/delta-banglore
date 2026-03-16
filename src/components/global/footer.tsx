@@ -30,7 +30,7 @@ const footerData = [
           <>
             {/* +91 7736859513 */}
             {/* <br />  */}
-           Delta Trading Academy, 1st Floor, Work Hub by Novel Office, DODDANAKUNDI INDUSTRIAL AREA, Graphite India Main Rd, Whitefield, KEB Colony, Industrial Area, Mahadevapura, Bengaluru, Karnataka 560048
+            Delta Trading Academy, 1st Floor, Work Hub by Novel Office, DODDANAKUNDI INDUSTRIAL AREA, Graphite India Main Rd, Whitefield, KEB Colony, Industrial Area, Mahadevapura, Bengaluru, Karnataka 560048
           </>
         ),
         href: "",
@@ -42,41 +42,41 @@ const footerData = [
         href: "mailto:info@deltainstitutions.com",
       },
       {
-        label: "+918951639214 ",
-        href: "tel:+918951639214 ",
+        label: "+919187236407 ",
+        href: "tel:+919187236407 ",
       },
     ],
-   social:[
-    {
-      icon: <FaLinkedin/>,
-      href: 'https://www.linkedin.com/company/delta-international-academy/mycompany/?viewAsMember=true',
-    },
-    {
-      icon: <FaFacebook/>,
-      href: 'https://www.facebook.com/profile.php?id=100092268086708',
-    },
-    {
-      icon: <FaInstagram/>,
-      href: 'https://instagram.com/delta_international_institute?igshid=YmMyMTA2M2Y=',
-    },
-    {
-      icon: <FaXTwitter/>,
-      href: 'https://x.com/DeltaI17228',
-    },
-    // {
-    //   icon: <FaSnapchat/>,
-    //   href: ' https://www.snapchat.com/add/deltamens1?share_id=lbwxHFqwycE&locale=en-GB',
-    // },
-    {
-      icon: <FaYoutube/>,
-      href: 'https://www.youtube.com/channel/UCrxRRxzEy84uX-MZqxFSy2g',
-    },
-    // {
-    //   icon: <FaTiktok/>,
-    //   href: 'https://www.tiktok.com/@deltainstitute?_r=1&_t=ZS-910aLwB4FHT',
-    // },
+    social: [
+      {
+        icon: <FaLinkedin />,
+        href: 'https://www.linkedin.com/company/delta-international-academy/mycompany/?viewAsMember=true',
+      },
+      {
+        icon: <FaFacebook />,
+        href: 'https://www.facebook.com/profile.php?id=100092268086708',
+      },
+      {
+        icon: <FaInstagram />,
+        href: 'https://instagram.com/delta_international_institute?igshid=YmMyMTA2M2Y=',
+      },
+      {
+        icon: <FaXTwitter />,
+        href: 'https://x.com/DeltaI17228',
+      },
+      // {
+      //   icon: <FaSnapchat/>,
+      //   href: ' https://www.snapchat.com/add/deltamens1?share_id=lbwxHFqwycE&locale=en-GB',
+      // },
+      {
+        icon: <FaYoutube />,
+        href: 'https://www.youtube.com/channel/UCrxRRxzEy84uX-MZqxFSy2g',
+      },
+      // {
+      //   icon: <FaTiktok/>,
+      //   href: 'https://www.tiktok.com/@deltainstitute?_r=1&_t=ZS-910aLwB4FHT',
+      // },
 
-  ]
+    ]
   },
 ];
 
@@ -119,7 +119,7 @@ const Footer = () => {
                                 href={socialItem.href}
                                 className="tt-magnetic-item"
                               >
-                               {socialItem.icon}
+                                {socialItem.icon}
                               </a>
                             </li>
                           ))}
@@ -137,7 +137,7 @@ const Footer = () => {
             <div className="tt-footer-widget">
               <ul className="tt-footer-widget-list">
                 <li>
-                  <div style={{pointerEvents:'none'}} className="tt-footer-logo">
+                  <div style={{ pointerEvents: 'none' }} className="tt-footer-logo">
                     <a href="/">
                       <img
                         src="/logos-pdf.png"

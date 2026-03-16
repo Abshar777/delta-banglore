@@ -148,8 +148,8 @@ const ContactForm = () => {
                       <span className="tt-cd-icon">
                         <i className="fas fa-phone"></i>
                       </span>
-                      <a href="tel:+918951639214 " className="tt-link">
-                        +918951639214
+                      <a href="tel:+919187236407 " className="tt-link">
+                        +919187236407
                       </a>
                     </li>
                     <li>
@@ -291,11 +291,10 @@ const ContactForm = () => {
                 <div className="tt-anim-fadeinup">
                   <button
                     type="submit"
-                    className={`tt-btn tt-btn-primary tt-magnetic-item ${
-                      !isValidPhone || loading
+                    className={`tt-btn tt-btn-primary tt-magnetic-item ${!isValidPhone || loading
                         ? "opacity-50 pointer-events-none"
                         : ""
-                    }`}
+                      }`}
                     disabled={!isValidPhone || loading}
                   >
                     {loading ? (

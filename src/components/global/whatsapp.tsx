@@ -5,7 +5,7 @@ const WhatsappButton = () => {
   return (
     <>
       <a
-        href="https://wa.me/+918951639214?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20this.%20Could%20you%20please%20provide%20details?"
+        href="https://wa.me/+919187236407?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20this.%20Could%20you%20please%20provide%20details?"
         className="align-items-center"
         style={{
           display: "flex",

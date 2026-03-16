@@ -109,8 +109,8 @@ const Hero = () => {
                 LANDED IN INDIA
               </h1>
               <div className="ph-caption-description max-width-700">
-               Delta is a leading trading institution from Dubai and a Guinness
-              World Record holder
+                Delta is a leading trading institution from Dubai and a Guinness
+                World Record holder
               </div>
             </div>
           </div>
@@ -152,7 +152,7 @@ const Hero = () => {
             </a>
           </li>
           <li>
-            <a href="tel:+918951639214 " className="tt-magnetic-item">
+            <a href="tel:+919187236407 " className="tt-magnetic-item">
               <FaPhoneAlt />
             </a>
           </li>
@@ -179,11 +179,11 @@ const Hero = () => {
         >
           <div className="tt-scrd-icon">
             <FaArrowDown style={{
-              fontSize:"2rem",
-              marginTop:"3rem"
+              fontSize: "2rem",
+              marginTop: "3rem"
             }} className="" />
           </div>
-           
+
           <svg viewBox="0 0 500 500">
             <defs>
               <path

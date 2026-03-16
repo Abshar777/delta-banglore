@@ -110,7 +110,7 @@ const PageHeader = ({
             </a>
           </li>
           <li>
-            <a href="tel:+918951639214" className="tt-magnetic-item">
+            <a href="tel:+919187236407" className="tt-magnetic-item">
               <i className="fa-solid fa-phone"></i>
             </a>
           </li>
