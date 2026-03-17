@@ -11,10 +11,10 @@ const Mentors = () => {
       name :"Kiran kumar",
       image:m1
     },
-    {
-      name :"Adarsh M krishnan",
-      image:m2
-    }
+    // {
+    //   name :"Adarsh M krishnan",
+    //   image:m2
+    // }
   ]
   return (
     <>
