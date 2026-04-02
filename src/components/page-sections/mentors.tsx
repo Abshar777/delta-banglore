@@ -6,10 +6,10 @@ import m2 from "@/../public/mentors/2.png"
 
 const Mentors = () => {
 
-  const mentors=[
+  const mentors = [
     {
-      name :"Kiran kumar",
-      image:m1
+      name: "Kiran kumar",
+      image: m1
     },
     // {
     //   name :"Adarsh M krishnan",
@@ -24,12 +24,12 @@ const Mentors = () => {
           <div className="tt-heading tt-heading-xxlg tt-heading-center">
             <h3 className="tt-heading-subtitle tt-text-reveal">
               <span style={{ backgroundSize: "200% 100%" }}>
-               Mentors
+                Mentors
               </span>
             </h3>
             <h2 className="tt-heading-title tt-text-reveal">
               <span style={{ backgroundSize: "200% 100%" }}>
-               Collaboration at the
+                Collaboration at the
                 <br />
                 core of innovation
               </span>
@@ -45,10 +45,10 @@ const Mentors = () => {
             {mentors.map((_, index) => (
               <li key={index}>
                 <a
-                  href="https://themetorium.net/"
+                  href=" "
                   className="tt-logo-wall-item cursor-alter"
                   target="_blank"
-                  style={{position:"relative"}}
+                  style={{ position: "relative" }}
                   rel="noopener noreferrer"
                 >
                   <div className="tt-lv-item-inner">
@@ -70,17 +70,17 @@ const Mentors = () => {
                     />
                   </div>
                   <div style={{
-                    position:"absolute",
-                    top:0,
-                    left:0,
-                    width:"100%",
-                    height:"100%",
-                    display:"flex",
-                    alignItems:"end",
-                    justifyContent:"center",
-                    zIndex:1
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                    width: "100%",
+                    height: "100%",
+                    display: "flex",
+                    alignItems: "end",
+                    justifyContent: "center",
+                    zIndex: 1
                   }} className="absolute">
-                    <h3 style={{color:"white",zIndex:999,}}>{_.name}</h3>
+                    <h3 style={{ color: "white", zIndex: 999, }}>{_.name}</h3>
                   </div>
                 </a>
               </li>
