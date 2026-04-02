@@ -45,7 +45,7 @@ const Mentors = () => {
             {mentors.map((_, index) => (
               <li key={index}>
                 <a
-                  href=" "
+                
                   className="tt-logo-wall-item cursor-alter"
                   target="_blank"
                   style={{ position: "relative" }}
