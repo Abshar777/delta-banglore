@@ -39,7 +39,7 @@ export default function Home() {
         <Features />
         <Benifits />
         <Courses />
-        <Mentors />
+        {/* <Mentors /> */}
         <AwardsSection />
         <AwwardListing />
         <ContactForm />
