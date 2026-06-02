@@ -30,7 +30,7 @@ const footerData = [
           <>
             {/* +91 7736859513 */}
             {/* <br />  */}
-            Delta Trading Academy, 1st Floor, Work Hub by Novel Office, DODDANAKUNDI INDUSTRIAL AREA, Graphite India Main Rd, Whitefield, KEB Colony, Industrial Area, Mahadevapura, Bengaluru, Karnataka 560048
+           #412 412 A, 99 100, 4th Floor Prestige Towers Residency Road, Bengaluru-560 025, Karnataka, India
           </>
         ),
         href: "",
