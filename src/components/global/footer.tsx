@@ -38,6 +38,11 @@ const footerData = [
         rel: "nofollow noopener",
       },
       {
+        label: "GST NO",
+        href: "29AAJCE53644R1ZP",
+       
+      },
+      {
         label: "info@deltainstitutions.com",
         href: "mailto:info@deltainstitutions.com",
       },
