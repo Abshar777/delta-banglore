@@ -207,3 +207,39 @@ h6 {
 p {
   font-family: var(--font-poppins);
 }
+
+/* ------------------------------------------------------------- *
+ * FAQ accordion (uses theme tt-accordion styles, React-driven)
+/* ------------------------------------------------------------- */
+
+.faq-accordion .tt-accordion-item {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+}
+.faq-accordion .tt-ac-head {
+  display: flex;
+}
+.faq-accordion .faq-ac-number {
+  display: block;
+  margin-right: 15px;
+  padding-top: 6px;
+  opacity: 0.5;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1;
+}
+.faq-accordion .faq-ac-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.35s ease;
+}
+.faq-accordion .tt-accordion-item.active .faq-ac-body {
+  grid-template-rows: 1fr;
+}
+.faq-accordion .faq-ac-body > div {
+  overflow: hidden;
+}
+.faq-accordion .faq-ac-answer {
+  max-width: 800px;
+  margin: 0;
+  opacity: 0.75;
+}

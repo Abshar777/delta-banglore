@@ -5,6 +5,7 @@ import { Big_Shoulders, Poppins } from "next/font/google";
 import Heade from "@/components/layout/heade";
 import Scripts from "@/components/layout/scripts";
 import Indexlayout from "@/components/layout";
+import { faqs } from "@/const/faqs";
 // import "@/../public/assets/vendor/fontawesome/css/all.min.css";
 // import "@/../public/assets/vendor/swiper/css/swiper-bundle.min.css";
 // import "@/../public/assets/css/helper.css";
@@ -124,12 +125,26 @@ const breadcrumbSchema = {
   ],
 };
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: faq.answer,
+    },
+  })),
+};
+
 const globalSchemas = [
   organizationSchema,
   localBusinessSchema,
   webSiteSchema,
   webPageSchema,
   breadcrumbSchema,
+  faqSchema,
 ];
 
 export default function RootLayout({

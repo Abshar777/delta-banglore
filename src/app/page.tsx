@@ -16,6 +16,7 @@ import Courses from "@/components/page-sections/courses";
 import Caption from "@/components/page-sections/caption";
 import ContactForm from "@/components/page-sections/contactForm";
 import Mentors from "@/components/page-sections/mentors";
+import Faq from "@/components/page-sections/faq";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -46,6 +47,7 @@ export default function Home() {
         {/* <ContactSection /> */}
         <VideoPopup />
         <Testimonials />
+        <Faq />
 
         <ContactSection />
       </div>

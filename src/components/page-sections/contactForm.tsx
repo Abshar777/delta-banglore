@@ -119,8 +119,8 @@ const ContactForm = () => {
                 <div className="margin-bottom-50 tt-anim-fadeinup">
                   <h6>Let's Talk</h6>
                   <p>
-                    You're just one step away from streamlining your supply
-                    chain and boosting your trade efficiency.
+                    Got questions about the markets or our programs? Reach out
+                    and let's elevate your trading journey together.
                   </p>
                 </div>
 
@@ -133,22 +133,20 @@ const ContactForm = () => {
                         <i className="fas fa-map-marker-alt"></i>
                       </span>
                       <a
-                        href="https://www.google.com/maps/place/121+King+St,+Melbourne+VIC+3000,+Austraalia/@-37.8172467,144.9532001,17z/data=!3m1!4b1!4m6!3m5!1s0x6ad65d4dd5a05d97:0x3e64f855a564844d!8m2!3d-37.817251!4d144.955775!16s%2Fg%2F11g0g8c54h?entry=ttu&amp;g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D"
+                        href="https://www.google.com/maps/search/#412+Prestige+Towers+Residency+Road+Bengaluru+Karnataka+India"
                         className="tt-link"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Delta Trading Academy, 1st Floor, Work Hub by Novel
-                        Office, DODDANAKUNDI INDUSTRIAL AREA, Graphite India
-                        Main Rd, Whitefield, KEB Colony, Industrial Area,
-                        Mahadevapura, Bengaluru, Karnataka 560048
+                        #412A, 4th Floor, Prestige Towers, Residency Road,
+                        Bengaluru, Karnataka – 560025, India
                       </a>
                     </li>
                     <li>
                       <span className="tt-cd-icon">
                         <i className="fas fa-phone"></i>
                       </span>
-                      <a href="tel:+919187236407 " className="tt-link">
+                      <a href="tel:+919187236407" className="tt-link">
                         +919187236407
                       </a>
                     </li>

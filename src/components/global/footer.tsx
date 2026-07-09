@@ -8,7 +8,7 @@ const footerData = [
   {
     heading: "Links",
     items: [
-      { label: "Support", href: "https://wa.me/918951639214 " },
+      { label: "Support", href: "https://wa.me/918951639214" },
       { label: "Terms of Use", href: "https://www.deltainstitutions.com/termsandcondition" },
       { label: "Privacy Policy", href: "https://www.deltainstitutions.com/privacy-policy" },
     ],
@@ -30,7 +30,7 @@ const footerData = [
           <>
             {/* +91 7736859513 */}
             {/* <br />  */}
-           #412 412 A, 99 100, 4th Floor Prestige Towers Residency Road, Bengaluru-560 025, Karnataka, India
+           #412A, 4th Floor, Prestige Towers, Residency Road, Bengaluru, Karnataka – 560025, India
           </>
         ),
         href: "",
@@ -38,17 +38,16 @@ const footerData = [
         rel: "nofollow noopener",
       },
       {
-        label: "GST NO",
-        href: "29AAJCE53644R1ZP",
-       
+        label: "GST NO: 29AAJCE53644R1ZP",
+        href: "",
       },
       {
         label: "info@deltainstitutions.com",
         href: "mailto:info@deltainstitutions.com",
       },
       {
-        label: "+919187236407 ",
-        href: "tel:+919187236407 ",
+        label: "+919187236407",
+        href: "tel:+919187236407",
       },
     ],
     social: [
@@ -142,7 +141,7 @@ const Footer = () => {
             <div className="tt-footer-widget">
               <ul className="tt-footer-widget-list">
                 <li>
-                  <div style={{ pointerEvents: 'none' }} className="tt-footer-logo">
+                  <div className="tt-footer-logo">
                     <a href="/">
                       <img
                         src="/logos-pdf.png"
@@ -162,19 +161,9 @@ const Footer = () => {
                   </div>
                 </li>
                 <li>
-                  {/* <div className="tt-footer-copyright md:ml-5">
-                   
-                    <a
-                      href="www.eleganttradingacademy.com"
-                      className="tt-link"
-                      target="_blank"
-                      rel="nofollow noopener"
-                    >
-                      eleganttradingacademy.com
-                    </a>
-                    <br />
-                    Elegant Trading Academy   © {new Date().getFullYear()}{" "}  All Rights Reserved
-                  </div> */}
+                  <div className="tt-footer-copyright md:ml-5">
+                    Delta International Institute &copy; 2025 All Rights Reserved
+                  </div>
                 </li>
               </ul>
             </div>
