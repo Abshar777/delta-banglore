@@ -84,6 +84,11 @@ const localBusinessSchema = {
     addressCountry: "IN",
   },
   priceRange: "$$",
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.9",
+    reviewCount: "7000",
+  },
 };
 
 const webSiteSchema = {
