@@ -5,6 +5,9 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "/contact",
+  },
   title: "Contact | Delta International Trading",
   description:
     "Got questions about the markets or our programs? Reach out to us and let's elevate your trading journey together!",

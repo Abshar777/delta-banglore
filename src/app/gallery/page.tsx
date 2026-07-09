@@ -5,6 +5,9 @@ import React from "react";
 
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "/gallery",
+  },
   title: "Gallery | Delta International Trading",
   description: "We are a team of experienced traders and analysts who are dedicated to helping you achieve your trading goals.",
   keywords: [
@@ -23,7 +26,7 @@ const page = () => {
     <div id="tt-page-content">
       <PageHeader
         description1="Gallery"
-        description2="We are a team of experienced traders and analysts who are dedicated to helping you achieve your trading goals."
+        description2="A glimpse into our trading sessions, events, and community."
         firstTitle="Gallery"
         secondTitle="Gallery"
         maskTitle="Gallery"
