@@ -30,7 +30,8 @@ const HeroVideo = () => (
       }}
       fill
       src="/hero-1.png"
-      alt="Logo"
+      alt="Delta Trading Academy event"
+      priority
     />
   </div>
 );

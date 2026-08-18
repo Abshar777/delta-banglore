@@ -38,7 +38,7 @@ const footerData = [
         rel: "nofollow noopener",
       },
       {
-        label: "GST NO: 29AAJCE53644R1ZP",
+        label: "GST NO: 29AAJCE5364R1ZP",
         href: "",
       },
       {

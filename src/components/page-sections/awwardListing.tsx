@@ -54,7 +54,7 @@ const AwardsList: React.FC = () => {
             >
               <div className="tt-avlist-item-inner">
                 <div className="tt-avlist-col tt-avlist-col-count">
-                  <div className="tt-avlist-count">{index + 1}</div>
+                  <div className="tt-avlist-count"></div>
                 </div>
                 <div className="tt-avlist-col tt-avlist-col-title">
                   <h4 className="tt-avlist-title">{award.title}</h4>

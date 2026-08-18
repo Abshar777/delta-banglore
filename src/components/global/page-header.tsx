@@ -71,7 +71,7 @@ const PageHeader = ({
         <ul>
           <li>
             <a
-              href="https://www.facebook.com/profile.php?id=61577236858579"
+              href="https://www.facebook.com/profile.php?id=100092268086708"
               className="tt-magnetic-item"
               target="_blank"
               rel="noopener noreferrer"
@@ -81,7 +81,7 @@ const PageHeader = ({
           </li>
           <li>
             <a
-              href="https://www.instagram.com/elegant.academy_?igsh=aDJ2NGRwOGE3ZXJm"
+              href="https://instagram.com/delta_international_institute?igshid=YmMyMTA2M2Y="
               className="tt-magnetic-item"
               target="_blank"
               rel="noopener noreferrer"
@@ -91,7 +91,7 @@ const PageHeader = ({
           </li>
           <li>
             <a
-              href="https://wa.me/918951639214" // example: https://wa.me/1234567890
+              href="https://wa.me/918951639214"
               className="tt-magnetic-item"
               target="_blank"
               rel="noopener noreferrer"
@@ -101,7 +101,7 @@ const PageHeader = ({
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/company/elegant-trading-academy/posts/?feedView=all" // example: https://wa.me/1234567890
+              href="https://www.linkedin.com/company/delta-international-academy/mycompany/?viewAsMember=true"
               className="tt-magnetic-item"
               target="_blank"
               rel="noopener noreferrer"
