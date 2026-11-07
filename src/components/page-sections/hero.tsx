@@ -144,7 +144,7 @@ const Hero = () => {
           </li>
           <li>
             <a
-              href="https://wa.me/918951639214 " // example: https://wa.me/1234567890
+              href="https://wa.me/919187236407" // example: https://wa.me/1234567890
               className="tt-magnetic-item"
               target="_blank"
               rel="noopener noreferrer"

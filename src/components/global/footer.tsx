@@ -8,7 +8,7 @@ const footerData = [
   {
     heading: "Links",
     items: [
-      { label: "Support", href: "https://wa.me/918951639214" },
+      { label: "Support", href: "https://wa.me/919187236407" },
       { label: "Terms of Use", href: "https://www.deltainstitutions.com/termsandcondition" },
       { label: "Privacy Policy", href: "https://www.deltainstitutions.com/privacy-policy" },
     ],
